@@ -1,3 +1,8 @@
-const a = 9;
+const int = setInterval(() => {
+    console.log('In interval');
+}, 1000);
 
-console.log(a);
+setTimeout(() => {
+    console.log('in time!');
+    clearInterval(int);
+}, 3000);
