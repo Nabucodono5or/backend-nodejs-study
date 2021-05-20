@@ -1,5 +1,4 @@
-const int = setInterval(() => {
-    console.log('In interval');
-}, 1000);
+const warframes: string[] = ['ivara', 'nezha', 'saryn', 'mirage'];
+const formas: number[] = [6, 3, 5, 3];
 
-export default int;
+export { warframes, formas };
